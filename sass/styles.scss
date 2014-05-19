@@ -1,0 +1,94 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+
+#top {
+  background-image: url('../images/top.jpg');
+  height: 350px;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.operations {
+  margin-right: 5px;
+  border-radius: 10px;
+  div {
+    border-radius: 10px;
+    background: image-url('party1.jpg');
+    background-size: 150%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+  }
+  p {
+    opacity: 0;
+  }
+}
+
+.values {
+  margin-right: 5px;
+  border-radius: 10px;
+  div {
+    border-radius: 10px;
+    background: image-url('teamwork.jpg');
+    background-size: 150%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+  }
+  p {
+    opacity: 0;
+  }
+}
+
+.goals {
+  // background-color: $gray-lighter;
+  margin-right: 5px;
+  border-radius: 10px;
+  div {
+    border-radius: 10px;
+    background: image-url('safety.jpg');
+    background-size: 150%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+  }
+  p {
+    opacity: 0;
+  }
+}
+
+.front {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.front h1 {
+  font-size: 450%;
+}
+
+.front h2:hover {
+  cursor: pointer;
+}
+
+.front h2 {
+  padding: 5px;
+  border: solid medium blue;
+}
+
+.top-margin {
+  margin-top: 20px;
+}
