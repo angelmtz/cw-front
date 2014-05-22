@@ -7962,17 +7962,17 @@ section {
 
 /* line 74, ../sass/styles.scss */
 .operations div {
-  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/party1.jpg?1400457954');
+  background: url("../images/party1.jpg");
 }
 
 /* line 79, ../sass/styles.scss */
 .values div {
-  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/teamwork.jpg?1400458010');
+  background: url("../images/teamwork.jpg");
 }
 
 /* line 83, ../sass/styles.scss */
 .goals div {
-  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/safety.jpg?1400458070');
+  background: url("../images/safety.jpg");
   background-size: 100%;
 }
 
