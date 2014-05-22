@@ -23,7 +23,7 @@
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
+        <div class="container-fluid" style="width: 1280px;">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
@@ -31,32 +31,35 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">CW</a>
+            <a href="index.html" class="navbar-brand" style="background-color:black;color:white;">CW</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Mission</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">In the News <b class="caret"></b></a>
+              <li><a href="mountain.html#second">Mission</a></li>
+			  <li><a href="mountain.html#third">Services</a></li>
+              <!--<li class="dropdown">
+                <a class="dropdown-toggle" href="mountain.html#fourth" data-toggle="dropdown">Testimonials <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Garrison</a></li>
+                  <li><a href="#">And another guy</a></li>
+                </ul>
+              </li>-->
+			  <li><a href="mountain.html#fourth">Testimonials</a></li>
+              <!--<li class="dropdown">
+                <a href="mountain.html#fifth" class="dropdown-toggle" data-toggle="dropdown">In the News <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Huffington Post</a></li>
                   <li><a href="#">Daily Sun</a></li>
                   <li class="divider"></li>
                   <li><a href="#">Somethin else</a></li>
                 </ul>
-              </li>
-              <li><a href="#">Exec</a></li>
+              </li>-->
+			  <li><a href="mountain.html#fifth">In the News</a></li>
+              <li><a href="mountain.html#sixth">E. Board</a></li>
+			  <li><a href="#">Donate</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Services</a></li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown">Testimonials <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Garrison</a></li>
-                  <li><a href="#">And another guy</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Donate</a></li>
+               <li><a href="#">Back to Top</a></li>
             </ul>
           </div> <!-- navbar-header -->
         </div> <!-- container-fluid -->
@@ -64,7 +67,7 @@
     <section id="first" data-speed="-1" data-type="background">
       <div class="logo" data-type="sprite" data-speed="8" data-offsetY="100" data-Xposition="50%"></div>
     </section>
-    <section id="second" data-type="background" data-speed="5">
+    <section id="second" style="min-height:0px;"data-type="background" data-speed="5">
       <div class="grid-1">
         <div class="row">
           <h2 class="col-md-offset-1">Our Mission</h2>
@@ -99,8 +102,22 @@
         </div>
       </div>
     </section>
-    <section id="third" data-type="background" data-speed="6">
-      <div class="grid-2">
+	<section id="third" style="min-height:0px;">
+		<div class="grid-1">
+		  <div class="row">
+			<h2 class="col-md-offset-1">Services</h2>
+		  </div>
+		</div>
+    </section>
+    <section id="fourth" style="min-height:0px;">
+		<div class="grid-1">
+		  <div class="row">
+			<h2 class="col-md-offset-1">Testimonials</h2>
+		  </div>
+		</div>
+    </section>
+    <section id="fifth" style="min-height:0px;" data-type="background" data-speed="6">
+      <div class="grid-1">
         <div class="row">
           <h2 class="col-md-offset-1">In the News</h2>
         </div>
@@ -123,8 +140,8 @@
         </div>
       </div>
     </section>
-    <section id="fourth" data-type="background" data-speed="6">
-      <div class="grid-3">
+    <section id="sixth" style="min-height:0px;" data-type="background" data-speed="6">
+      <div class="grid-1">
         <div class="three-col">
           <div class="row">
             <h2 class="col-md-offset-1">Our Executive Board</h2>
@@ -200,15 +217,6 @@
         </div>
       </div>
     </section>
-    <section id="fifth">
-      <div class="row">
-        <h2 class="col-md-offset-1">Services</h2>
-      </div>
-    </section>
-    <section id="sixth">
-      <div class="row">
-        <h2 class="col-md-offset-1">Testimonials</h2>
-      </div>
-    </section>
+    
   </body>
 </html>

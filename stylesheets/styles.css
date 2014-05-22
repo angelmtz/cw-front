@@ -7908,7 +7908,8 @@ section {
 
 /* line 22, ../sass/styles.scss */
 #first {
-  background-image: url("../images/top.jpg");
+  background-image: url("../images/top.jpg"),url("../images/stardust.png");
+  background-repeat:no-repeat,repeat;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
