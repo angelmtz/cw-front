@@ -20,26 +20,22 @@
     <script src="javascripts/bootstrap/tab.js"></script>
     <script src="javascripts/bootstrap/transition.js"></script>
     <script src="javascripts/scripts.js"></script>
-    <script>
-      $(function() {
-        $( "#accordion" ).accordion({
-          collapsible: true,
-          active: false
-        });
-      });
-    </script>
   </head>
-  <body>
-    <main class="front">
-      <h1>Cayuga's Watchers</h1>
-      <div id="accordion">
-        <h2>I am a...</h2>
-        <div>
-          <a href="mountain.html">Supporter</a>
-          <br>
-          <a href="#">Student</a>
-        </div>
-      </div>
-    </main>
+  <body style="background-image:url('images/stardust.png');
+	background-repeat:repeat;">
+	<div style="height:50px; background-color:#222222;"></div>
+	<section style="min-height:0px;background:url('images/fresh_snow.png')"data-type="background" data-speed="5">
+      <div id="title" style="width:751px; height:400px; margin-left:auto;margin-right:auto;">
+        <img src='images/logo.png'style="height:250px; margin-left:auto;margin-right:auto;"> 
+		<div class="btn-group" style="margin-left:241px;margin-top:40px;">
+			<a href="#"><button class="btn btn-default btn-lg" type="button">
+				Students
+			</button></a>
+			<a href="mountain.html"><button class="btn btn-warning btn-lg" type="button">
+				Supporters
+			</button></a>
+		</div>
+	  </div>
+	</section>
   </body>
 </html>
