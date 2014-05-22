@@ -7891,47 +7891,37 @@ button.close {
     display: none !important;
   }
 }
-/* line 5, ../sass/styles.scss */
-#top {
-  background-image: url("../images/top.jpg");
-  height: 350px;
-  -moz-box-shadow: inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
+/* line 9, ../sass/styles.scss */
+.logo {
+  background: url(../images/logo.png) 50% 100px no-repeat fixed;
+  background-size: 600px;
+  top: 100px;
+  min-height: 650px;
 }
 
-/* line 13, ../sass/styles.scss */
-.operations {
-  margin-right: 5px;
-  border-radius: 10px;
-}
 /* line 16, ../sass/styles.scss */
-.operations div {
-  border-radius: 10px;
-  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/party1.jpg?1400457954');
-  background-size: 150%;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-/* line 28, ../sass/styles.scss */
-.operations p {
-  opacity: 0;
+section {
+  min-height: 650px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 -10px 50px rgba(0, 0, 0, 0.5);
 }
 
-/* line 33, ../sass/styles.scss */
-.values {
-  margin-right: 5px;
+/* line 25, ../sass/styles.scss */
+#first {
+  background-image: url("../images/top.jpg");
+  background-position: 50% 0;
+  height: 650px;
+}
+
+/* line 34, ../sass/styles.scss */
+.missions {
+  margin-right: 2.2%;
   border-radius: 10px;
 }
-/* line 36, ../sass/styles.scss */
-.values div {
+/* line 37, ../sass/styles.scss */
+.missions div {
   border-radius: 10px;
-  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/teamwork.jpg?1400458010');
   background-size: 150%;
   opacity: 1;
   top: 0;
@@ -7942,56 +7932,52 @@ button.close {
   z-index: -1;
 }
 /* line 48, ../sass/styles.scss */
-.values p {
+.missions p {
   opacity: 0;
 }
 
 /* line 53, ../sass/styles.scss */
-.goals {
-  margin-right: 5px;
-  border-radius: 10px;
+.operations {
+  margin-left: 10%;
 }
-/* line 57, ../sass/styles.scss */
-.goals div {
-  border-radius: 10px;
-  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/safety.jpg?1400458070');
-  background-size: 150%;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-/* line 69, ../sass/styles.scss */
-.goals p {
-  opacity: 0;
+/* line 55, ../sass/styles.scss */
+.operations div {
+  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/party1.jpg?1400457954');
 }
 
-/* line 74, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
+.values div {
+  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/teamwork.jpg?1400458010');
+}
+
+/* line 64, ../sass/styles.scss */
+.goals div {
+  background: url('/Users/shanewmoore/Documents/Sites/cw-front/images/safety.jpg?1400458070');
+}
+
+/* line 68, ../sass/styles.scss */
 .front {
   text-align: center;
   margin-top: 200px;
 }
 
-/* line 79, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .front h1 {
   font-size: 450%;
 }
 
-/* line 83, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 .front h2:hover {
   cursor: pointer;
 }
 
-/* line 87, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 .front h2 {
   padding: 5px;
   border: solid medium blue;
 }
 
-/* line 92, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .top-margin {
   margin-top: 20px;
 }
